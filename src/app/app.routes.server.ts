@@ -6,3 +6,7 @@ export const serverRoutes: ServerRoute[] = [
     renderMode: RenderMode.Prerender
   }
 ];
+export class FrontComponent {
+
+}
+
