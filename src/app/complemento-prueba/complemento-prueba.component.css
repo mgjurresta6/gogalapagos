@@ -1,0 +1,368 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.voucher-container {
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.voucher-image {
+
+    max-width: 100px; 
+    margin: 0 auto 15px; }
+
+.voucher-container-up{
+    background-color: #6461A2;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 15px;
+}
+
+.title-pre{
+    text-align: right;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.voucher-title {
+    text-align: center;
+    font-size: 22px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #2c3e50;
+    text-transform: uppercase;
+}
+
+.voucher-number {
+    text-align: right;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.issue-date {
+    text-align: left;
+    margin-bottom: 30px;
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    border-bottom: 2px solid #ddd;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+    text-align: center;
+}
+
+.trip-info {
+    margin-top: 40px;
+
+}
+
+.trip-info h3 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 8px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  
+}
+
+.passenger-table td:nth-child(3),
+.trip-table td:nth-child(3) {
+    color: #555;
+    text-align: center;
+   
+}
+
+.trip-table td:nth-child(2) {
+    font-weight: 500;
+    text-align: center;
+   
+}
+.flight-schedule {
+    margin: 25px 0;
+}
+
+.flight-schedule h3 {
+    color: #2c3e50;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.flight-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+
+.flight-table th, .flight-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.flight-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.disclaimer {
+    background-color: #fff8e1;
+    padding: 10px;
+    border-left: 4px solid #ffc107;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.details-section h3, .contacts-section h3 {
+    color: #2c3e50;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+.details-list {
+    padding-left: 20px;
+}
+
+.details-list li {
+    margin-bottom: 8px;
+}
+
+.contacts-section p {
+    margin: 10px 0;
+}
+
+.signature {
+    margin-top: 40px;
+    text-align: right;
+    font-style: italic;
+}
+
+.signature p:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.flight-schedule {
+    margin: 25px 0;
+}
+
+.flight-schedule h3 {
+    color: #2c3e50;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.flight-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    position: relative;
+}
+
+.flight-table th, .flight-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.flight-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.disclaimer {
+    background-color: #fff8e1;
+    padding: 5%;
+    border-left: 4px solid #ffc107;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.details-section h3, .contacts-section h3 {
+    color: #2c3e50;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.details-list {
+    padding-left: 20px;
+}
+
+.details-list li {
+    margin-bottom: 8px;
+}
+
+.contacts-section p {
+    margin: 10px 0;
+}
+
+.signature {
+    margin-top: 40px;
+    text-align: right;
+    font-style: italic;
+}
+
+.signature p:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.services-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.section:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 22px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #2c3e50;
+}
+
+h3 {
+    color: #3498db;
+    font-size: 18px;
+    margin: 15px 0 10px;
+}
+
+.note {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.price-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.price-list li {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #ddd;
+}
+
+.service {
+    flex: 1 0 60%;
+    font-weight: bold;
+}
+
+.price {
+    flex: 1 0 40%;
+    text-align: right;
+    color: #e74c3c;
+}
+
+.description {
+    font-style: italic;
+    color: #555;
+    margin-top: 15px;
+}
+
+.discount-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.discount-list li {
+    margin-bottom: 15px;
+}
+
+.discount-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.optional-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.optional-list li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.optional-list span {
+    font-weight: bold;
+    min-width: 200px;
+    display: inline-block;
+}
+
+.included-section h2 {
+    color: #27ae60;
+}
+
+.not-included-section h2 {
+    color: #e74c3c;
+}
+
+.supplements-section h2 {
+    color: #f39c12;
+}
+
+.optional-section h2 {
+    color: #9b59b6;
+}
