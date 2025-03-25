@@ -3,4 +3,5 @@ import { ComplementoPruebaComponent } from './complemento-prueba/complemento-pru
 
 export const routes: Routes = [
     { path: '', component: ComplementoPruebaComponent },
+    //{ path: 'test', component: TestComponent } //Ejemplo de ruta de componente
 ];
